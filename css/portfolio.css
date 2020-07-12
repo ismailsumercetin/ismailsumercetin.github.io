@@ -1,5 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100&display=swap');
 
+@media only screen and (max-width: 600px){
+    #main {
+        margin: 0;
+        position: absolute;
+        font-size: 55%;
+        
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    
+        -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+        -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+        
+    }
+
+    #me {
+        margin-left: 20%;
+    }
+
+    #social {
+        margin-left: 20%;
+    }
+    
+    #info {
+        margin-top: 10%;
+        margin-left: 18%;
+        width: 100%;
+    }
+
+    #info a button{
+        font-size: 45%;
+    }
+
+}
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+    #main {
+        margin: 0;
+        position: absolute;
+        font-size: 70%;
+        
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        -o-user-select: none;
+        user-select: none;
+    
+        -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+        -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+        -o-animation: fadein 3s; /* Opera < 12.1 */
+        animation: fadein 3s;
+        
+    }
+
+    #me {
+        margin-left: 20%;
+    }
+
+    #social {
+        margin-left: 20%;
+    }
+    
+    #info {
+        margin-top: 10%;
+        margin-left: 18%;
+        width: 100%;
+    }
+
+    #info a button{
+        font-size: 45%;
+    }
+}
+
 * {
     margin:0;
     padding:0;
@@ -108,7 +191,7 @@ button:before {
 }
   
 button:hover:before {
-top: 0;
+    top: 0;
 }
 
 footer {
