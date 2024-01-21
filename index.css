@@ -36,9 +36,21 @@ p {
 	border-radius: 5px;
 	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
 	color: #B3B8CD;
-	padding-top: 30px;
+	padding: 30px;
 	position: relative;
 	width: 350px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.card-container.contact {
+	background-color: #231E39;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #B3B8CD;
+	padding: unset;
+	position: relative;
+	width: 400px;
 	max-width: 100%;
 	text-align: center;
 }
@@ -90,4 +102,8 @@ button.primary.ghost {
 	font-size: 12px;
 	margin: 0 7px 7px 0;
 	padding: 7px;
+}
+
+#btn-back {
+	margin-top: 18px;
 }
