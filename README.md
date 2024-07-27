@@ -1,1 +1,1 @@
-Sümer Çetin - Software Engineer
+Sumer Cetin
